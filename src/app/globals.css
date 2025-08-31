@@ -5,6 +5,30 @@
   --foreground: #171717;
 }
 
+@theme {
+  --color-quest: oklch(0.623 0.214 259.815); /* #0ea5e9 en OKLCH */
+  --color-magic: oklch(0.653 0.245 308.299); /* #a855f7 */
+  --color-dragon: oklch(0.637 0.237 25.331); /* #ef4444 */
+  --color-gold: oklch(0.866 0.187 95.277); /* #FFD700 */
+  --color-silver: oklch(0.784 0.033 264.542); /* #C0C0C0 */
+  --color-bronze: oklch(0.623 0.105 70.697); /* #CD7F32 */
+  --color-epic: oklch(0.623 0.214 305.504); /* #A335EE */
+  --color-legendary: oklch(0.713 0.223 55.934); /* #FF8000 */
+
+  /* Escalas de colores para Quest */
+  --color-quest-50: oklch(0.970 0.014 255.508);
+  --color-quest-100: oklch(0.936 0.036 255.508);
+  --color-quest-200: oklch(0.868 0.074 255.508);
+  --color-quest-300: oklch(0.776 0.134 255.508);
+  --color-quest-400: oklch(0.704 0.167 255.508);
+  --color-quest-500: oklch(0.623 0.214 259.815);
+  --color-quest-600: oklch(0.558 0.245 259.815);
+  --color-quest-700: oklch(0.488 0.243 259.815);
+  --color-quest-800: oklch(0.424 0.211 259.815);
+  --color-quest-900: oklch(0.365 0.175 259.815);
+  --color-quest-950: oklch(0.293 0.134 259.815);
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
